@@ -1,0 +1,16 @@
+{
+  "description": "Flagship FunnelScript High-Ticket Lead Generation & Sales Capacity Constraint Package",
+  "latest": "0.1.0",
+  "name": "leadgen/sales_capacity",
+  "versions": {
+    "0.1.0": {
+      "dependencies": {},
+      "entry": "index.fnl",
+      "funnelscript_version": ">=0.4.0",
+      "integrity": "sha256-1ee9c06bb80372fe9cbf65a131002e2225246eca317fb783e45075bb75d98373",
+      "published_at": "2026-11-21T12:00:00Z",
+      "tarball_url": "tarballs/leadgen/leadgen-sales_capacity-0.1.0.tar.gz",
+      "version": "0.1.0"
+    }
+  }
+}

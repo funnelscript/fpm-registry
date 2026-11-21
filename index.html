@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FunnelScript Package Registry</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --border: #334155;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      max-width: 800px;
+      width: 100%;
+    }
+    header {
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 8px;
+    }
+    p {
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    .badge {
+      background: rgba(56, 189, 248, 0.1);
+      color: var(--accent);
+      padding: 4px 10px;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      display: inline-block;
+      margin-bottom: 12px;
+    }
+    .package-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+    .package-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    .package-name {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--accent);
+    }
+    .package-ver {
+      background: var(--border);
+      color: var(--text);
+      font-size: 0.8rem;
+      padding: 2px 8px;
+      border-radius: 6px;
+    }
+    .code-block {
+      background: #090d16;
+      border: 1px solid var(--border);
+      padding: 12px 16px;
+      border-radius: 8px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.9rem;
+      color: #e2e8f0;
+      margin-top: 12px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge">Official Registry</span>
+      <h1>FunnelScript Package Registry</h1>
+      <p>Content-addressed, deterministic library registry for the FunnelScript marketing language.</p>
+    </header>
+
+    <div class="package-card">
+      <div class="package-header">
+        <span class="package-name">ecommerce/d2c_scale</span>
+        <span class="package-ver">v0.1.0</span>
+      </div>
+      <p>Flagship FunnelScript D2C scale strategy with dual Prepaid & COD payment channels and liquidity stress testing.</p>
+      <div class="code-block">fpm add ecommerce/d2c_scale</div>
+    </div>
+
+    <div class="package-card">
+      <div class="package-header">
+        <span class="package-name">leadgen/sales_capacity</span>
+        <span class="package-ver">v0.1.0</span>
+      </div>
+      <p>Flagship High-Ticket Lead Generation & Sales Capacity Constraint Package with response-time half-life decay.</p>
+      <div class="code-block">fpm add leadgen/sales_capacity</div>
+    </div>
+  </div>
+</body>
+</html>
