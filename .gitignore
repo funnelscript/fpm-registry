@@ -2,3 +2,12 @@
 .DS_Store?
 ._*
 Thumbs.db
+
+# Anti-Slop & Environment Hygiene Guardrails
+*.pem
+*.key
+agent-kernel/env-vault/
+*worktrees/
+*.wave.*
+coordinator.*/
+*.pyc

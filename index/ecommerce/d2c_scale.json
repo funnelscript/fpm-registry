@@ -5,7 +5,7 @@
   "versions": {
     "0.1.0": {
       "dependencies": {},
-      "entry": "index.fnl",
+      "entry": "index.fnls",
       "funnelscript_version": ">=0.4.0",
       "integrity": "sha256-fdd595fcb37c8370eb3328072044914a69221ca30fc6fa5ce0047ed3a004b7be",
       "published_at": "2026-11-21T12:00:00Z",
